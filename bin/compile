@@ -302,6 +302,7 @@ echo "executing sh "$bp_dir/bin/util/
 source $bp_dir/bin/util/zendguardloader.sh
 echo "Import Extension Zend Guard Loader into php.ini"
 echo "zend_extension=ZendGuardLoader.so" >> /app/.heroku/php/etc/php/php.ini
+echo "zend_extension=opcache.so" >> /app/.heroku/php/etc/php/php.ini
 # MOZG
 
 # special treatment for Blackfire; we enable it if we detect a server id and a server token for it

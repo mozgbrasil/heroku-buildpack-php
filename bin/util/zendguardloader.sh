@@ -24,6 +24,7 @@ bin_dir=${OUT_PREFIX}/bin
 mkdir -p ${ext_dir}
 mkdir -p ${bin_dir}
 cp ZendGuardLoader.so ${ext_dir}/ZendGuardLoader.so
+cp opcache.so ${ext_dir}/opcache.so
 popd
 
 echo "-----> Done."
